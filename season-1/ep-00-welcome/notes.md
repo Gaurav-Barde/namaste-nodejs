@@ -26,3 +26,12 @@
 • NPM is a package manager for Node
 • NPM is basically a central registry where you can add different packages for different development needs
 • Development of NPM was a significant achievement for Node
+• In 2011 NodeJS got the Windows support, Initially it was supported for only Mac OS & Linux
+• In 2012 Ryan left the NodeJS project and now it is led by Isaac the creator of NPM
+• In 2014 a developer named Fedor forked NodeJS repo & named it as io.js
+• In Sep. 2015 io.js and NodeJS are merged & a committee being formed for maintaining NodeJS known as NodeJS foundation
+• In 2019 JS foundation & NodeJS foundations are merged as OpenJS foundation & it took the control of NodeJS & responsibility for active development of NodeJS
+•
+•
+•
+•
