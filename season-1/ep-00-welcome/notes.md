@@ -31,7 +31,3 @@
 • In 2014 a developer named Fedor forked NodeJS repo & named it as io.js
 • In Sep. 2015 io.js and NodeJS are merged & a committee being formed for maintaining NodeJS known as NodeJS foundation
 • In 2019 JS foundation & NodeJS foundations are merged as OpenJS foundation & it took the control of NodeJS & responsibility for active development of NodeJS
-•
-•
-•
-•
