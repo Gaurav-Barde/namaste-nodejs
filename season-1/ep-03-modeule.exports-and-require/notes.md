@@ -8,7 +8,7 @@
 • If you want to access other modules variables and functions then you need to explicitly export those from that module. eg. module.exports = calculateSum;
 • And to import the exported function or variable, you need to do: const calculateSum = require("./sum.js");
 • If you want to export more than one function from a module then you need to wrap those in an object. eg. module.exports = {calculateSum: calculateSum, calculateDivision: calculateDivision}
-•
+• While importing you can use same object to import eg. const obj = require("./sum.js"); and then obj.calculateSum()
 •
 •
 •

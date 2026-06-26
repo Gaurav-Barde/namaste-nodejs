@@ -1,12 +1,10 @@
-require("./xyz");
-const calculateSum = require("./sum");
+// require("./xyz");
+const obj = require("./sum");
 
-const name = "Gaurav";
+console.log("ModuleName: ", obj.moduleName);
 
 const a = 10;
 
 const b = 20;
 
-calculateSum(a, b);
-
-console.log(globalThis === global);
+obj.calculateSum(a, b);

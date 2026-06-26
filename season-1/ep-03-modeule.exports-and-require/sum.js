@@ -1,7 +1,7 @@
-console.log("Sum Module executed");
+const moduleName = "Sum.js";
 
 function calculateSum(a, b) {
   console.log(a + b);
 }
 
-module.exports = calculateSum;
+module.exports = { moduleName, calculateSum };
