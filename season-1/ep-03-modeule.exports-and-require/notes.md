@@ -19,3 +19,15 @@
 • And while importing you need to use import keyword before a function or variable that needs to be imported eg. import {moduleName, calculateSum} from "./sum.js";
 • The ES module pattern is enabled by default in most of the modern front-end libraries and frameworks eg. React, Angular etc.
 • Common JS Modules(CJS) is an older way and ES Modules(ESM or MJS(Module JS)) is a newer way to import & export the modules
+• The OpenJS foundation is now saying that going forward ES modules will be the standard way of importing & exporting modules
+• When CJS is require a module it will do it in a synchronous way but ESM's import has async option
+• In CJS code is run in non-strict mode while in ESM the code is run in strict mode
+• If you log module.export it will print an empty object {}
+• You can also export function & variables like this: module.exports.calculateSum = calculateSum;
+•
+•
+•
+•
+•
+•
+•
