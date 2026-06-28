@@ -9,14 +9,13 @@
 • And to import the exported function or variable, you need to do: const calculateSum = require("./sum.js");
 • If you want to export more than one function from a module then you need to wrap those in an object. eg. module.exports = {calculateSum: calculateSum, calculateDivision: calculateDivision}
 • While importing you can use same object to import eg. const obj = require("./sum.js"); and then obj.calculateSum()
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
+• While exporting you can use JS short hand if the key & value name are both same eg. instead of writing module.exports = {calculateSum: calculateSum, calculateDivision: calculateDivision} you can write module.exports = {calculateSum, calculateDivision}
+• And while importing you can do destructuring on the fly, so instead of writing const obj = require("./sum.js") you can write const {calculateSum} = require("./sum"). you can also omit .js extension in the require function
+• Important learning: you cannot access a modules private functions or variable unless that module allow it to be
+• This module pattern of exporting and importing is known as common.js modules or CJS
+• There is one more module pattern known as ES modules or MJS
+• In NodeJS by default, common JS module is enabled, to enable the ES module you need to create package.json config file and inside that file you need to set "type" property to "module" value like this {"type" : "module"}
+• In ES module while exporting you need to use a keyword "export" in front of a function or variable that needs to be exported eg. export function calculateSum(){...} or export moduleName = "Sum.js"
+• And while importing you need to use import keyword before a function or variable that needs to be imported eg. import {moduleName, calculateSum} from "./sum.js";
+• The ES module pattern is enabled by default in most of the modern front-end libraries and frameworks eg. React, Angular etc.
+• Common JS Modules(CJS) is an older way and ES Modules(ESM or MJS(Module JS)) is a newer way to import & export the modules

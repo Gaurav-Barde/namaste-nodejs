@@ -1,10 +1,11 @@
 // require("./xyz");
-const obj = require("./sum");
+// const { moduleName, calculateSum } = require("./sum");
+import { moduleName, calculateSum } from "./sum.js";
 
-console.log("ModuleName: ", obj.moduleName);
+console.log("ModuleName: ", moduleName);
 
 const a = 10;
 
 const b = 20;
 
-obj.calculateSum(a, b);
+calculateSum(a, b);
