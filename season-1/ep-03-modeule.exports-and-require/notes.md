@@ -24,8 +24,8 @@
 • In CJS code is run in non-strict mode while in ESM the code is run in strict mode
 • If you log module.export it will print an empty object {}
 • You can also export function & variables like this: module.exports.calculateSum = calculateSum;
-•
-•
+• You can together group files & create a separate module out of it. eg. You can create a folder called calculate and in that folder, create a file named index.js & now in index.js import and export modules from different files and then instead of writing different import statements, import all the modules from the calculate folder once like below
+• const { calculateSum, calculateMultiply } = require("./calculate");
 •
 •
 •
