@@ -26,8 +26,6 @@
 • You can also export function & variables like this: module.exports.calculateSum = calculateSum;
 • You can together group files & create a separate module out of it. eg. You can create a folder called calculate and in that folder, create a file named index.js & now in index.js import and export modules from different files and then instead of writing different import statements, import all the modules from the calculate folder once like below
 • const { calculateSum, calculateMultiply } = require("./calculate");
-•
-•
-•
-•
-•
+• You can also import JSON data from a .json file eg. const data = require("./data.json"); and you don't need to do module.exports from the .json file
+• Module is a collection of JS code, which is separate and private to itself.
+• There are some modules which are present in the core of Node.JS and while importing you don't need to specify the file path eg. const util = require("node:util");
