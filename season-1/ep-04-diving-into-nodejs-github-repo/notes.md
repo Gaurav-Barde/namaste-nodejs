@@ -11,10 +11,10 @@
 • 4. Code evaluation: In this step module.exports object is created and then code is executed which is wrapped in an IIFE and then it will update the module.exports object
 • 5. Caching: In this step the module will be cached, meaning that if a module is required in one module then the next time in another module NodeJS will return the cached module instead repeating the steps once again
 • The code in any module is not directly passed to V8 engine, it is wrapped inside an IIFE and then passed to the V8
-•
-•
-•
-•
+• NodeJS is an Open Source project, you can go to NodeJS repo on GitHub and read the code
+• LibUv library is one of the most amazing super power NodeJS has. It is the reason why Node is so amazing
+• LibUv handles event loop, multi threading, and other important things.
+• The difference between an average and amazing developer is curiosity
 •
 •
 •
