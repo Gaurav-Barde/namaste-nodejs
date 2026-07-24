@@ -15,8 +15,8 @@
 • LibUv library is one of the most amazing super power NodeJS has. It is the reason why Node is so amazing
 • LibUv handles event loop, multi threading, and other important things.
 • The difference between an average and amazing developer is curiosity
-•
-•
+• Open source has done wonders for the developer community
+• The third step File content(code) is wrapped inside an IIFE is also known as the compile step
 •
 •
 •
