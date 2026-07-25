@@ -17,10 +17,10 @@
 • The difference between an average and amazing developer is curiosity
 • Open source has done wonders for the developer community
 • The third step File content(code) is wrapped inside an IIFE is also known as the compile step
-•
-•
-•
-•
+• In the big code repo like NodeJS the code will be nested at multiple levels, so we need to go one by one level to understand it
+• There is wrap function in NodeJS repo which uses a wrapper array to wrap the function in IIFE using string concatenation
+• If you log **filename(double underscore filename) you will get the path of the current module. eg. console.log(**filename) ==> /users/gaurav/doc/se
+• And if you log \_\_dirname, you will get the path of the git repo
 •
 •
 •
