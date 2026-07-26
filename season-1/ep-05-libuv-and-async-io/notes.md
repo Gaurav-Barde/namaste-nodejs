@@ -1,0 +1,54 @@
+• JS is a synchronous single threaded language, which means the JS engine runs on only one thread.
+• In JS thread is the execution path where your code runs
+• If the language is synchronous single threaded then it cannot do a lot of things because if you do a heavy calculations that single thread will be blocked
+• JS is in itself is a synchronous but with the node powers it became asynchronous
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
