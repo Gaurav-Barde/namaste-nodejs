@@ -1,19 +1,25 @@
 const fs = require("fs");
 const https = require("https");
 
+const fileData = fs.readFileSync("./file.txt", "utf8");
+
+console.log("Sync File Data: ", fileData);
+
 console.log("Hello World");
 
-fs.readFile("./file.txt", "utf-8", (err, data) => console.log(data));
-
-https.get("https://dummyjson.com/products/1", (res) =>
-  console.log("Data fetched successfully"),
-);
-
-setTimeout(() => console.log("Timer runs successfully"), 5000);
+// https.get("https://dummyjson.com/products/1", (res) =>
+//   console.log("Data fetched successfully"),
+// );
 
 fs.readFile("./file.txt", "utf8", (err, data) =>
   console.log("file data: ", data),
 );
+
+setTimeout(() => console.log("Timer runs successfully"), 5000);
+
+// fs.readFile("./file.txt", "utf8", (err, data) =>
+//   console.log("file data: ", data),
+// );
 
 function multiplication(a, b) {
   const result = a * b;
@@ -22,4 +28,4 @@ function multiplication(a, b) {
 
 const c = multiplication(1578, 9685);
 
-console.log(c);
+console.log("Multiplication is: ", c);
